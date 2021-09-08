@@ -9,7 +9,9 @@ function main($title, $content)
         <title><?=$title?></title>
     </head>
     
-    <body><?=$content()?></body>
+    <body>
+        <main><?=$content()?></main>
+    </body>
     </html>
 
 <?php }?>

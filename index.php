@@ -3,8 +3,8 @@ require 'vendor/autoload.php';
 require 'main.php';
 
 main("Home", function(){
-	?>
-	<h1>Modestas Ruk&scaron;naitis</h1>
-	<?php
+	$pd = new Parsedown();
+	$md = file_get_contents('assets/CV.md');
+	echo $pd->text($md);
 });
 ?>

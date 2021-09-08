@@ -8,3 +8,8 @@ body{
     background-color: #000;
     color: #fff;
 }
+main{
+	margin: auto;
+	max-width: 75em;
+	padding: 1em;
+}
