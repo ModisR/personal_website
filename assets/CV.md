@@ -52,9 +52,9 @@ When not bashing through equations or writing code, I like to keep fit through a
 ## References
 
 ### Mark Stephenson, Managing Director and Senior Actuary at PensionPal
-- tel: [07 776 236 215](tel:07776236215)
+- phone: [07 776 236 215](tel:07776236215)
 - email: [mark.stephenson@pensionpal.co.uk](mailto:mark.stephenson@pensionpal.co.uk)
 
 ### Dr Ricardo Twumasi, Doctor of Psychosis Studies at King's College London
-- tel: [020 7848 0363](tel:02078480363)
+- phone: [020 7848 0363](tel:02078480363)
 - email: [ricardo.twumasi@kcl.ac.uk](mailto:ricardo.twumasi@kcl.ac.uk)

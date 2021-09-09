@@ -11,6 +11,9 @@ function main($title, $content)
     
     <body>
         <main><?=$content()?></main>
+        <footer>
+            <div>&copy 2021 Modestas Ruk&scaron;naitis</div>
+        </footer>
     </body>
     </html>
 
