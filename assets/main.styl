@@ -1,4 +1,9 @@
 contentWidth = 60em
+
+footerContentHeight = 1.5em
+footerVertPadding = 0.75em
+footerHeight = footerContentHeight + 2*footerVertPadding
+
 accentCol = #333
 
 *
@@ -11,20 +16,30 @@ body
 	background-color #000
 	color #fff
 
+header, main, footer
+	&>div
+		margin auto
+		padding-left 1em
+		padding-right 1em
+		max-width contentWidth
+
+#social-links
+	padding .25em 0
+	float right
+
+	[class^="bi-"]
+		margin 0 0.25em
+		font-size 2em
+
 main
-	margin 0 auto
-	min-height 100vh
-	max-width contentWidth
-	padding 1em 1em 4em
+	padding-bottom 1em
 
 footer
-	margin-top -3em
 	background-color accentCol
-	div
-		margin auto
-		max-width contentWidth
-		padding 1em .75em
-		line-height 1.5em
+	&>div
+		padding-top footerVertPadding
+		padding-bottom footerVertPadding
+		line-height footerContentHeight
 
 h2, tbody, tr+tr>td
 	border-top 1px solid accentCol
